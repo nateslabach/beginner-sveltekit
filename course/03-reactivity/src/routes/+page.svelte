@@ -1,4 +1,12 @@
 <script>
+	<script>
+		let quantity = 0;
+		function addToCart() {
+			quantity = ++quantity;
+		}
+	  </script>
+	   
+	  <div>Your shopping cart has {quantity} items.</div>
 	let quantity = 0;
 	function addToCart() {
 		inventory = [...inventory, quantity];
